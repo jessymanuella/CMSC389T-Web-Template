@@ -9,7 +9,8 @@ FROM node:10-alpine
 
 EXPOSE 8080
 
-RUN mkdir -p /home/node/app/ && chown -R node:node /home/node/app/
+RUN mkdir -p /home/node/p5/ && chown -R node:node /home/node/p5/
+RUN mkdir -p /home/node/p5/node_modules/ && chown -R node:node /home/node/p5/node_modules/
 
 WORKDIR /home/node/app/
 
