@@ -11,6 +11,8 @@ EXPOSE 8080
 
 RUN mkdir -p /home/node/p5/ && chown -R node:node /home/node/p5/
 
+RUN mkdir -p /home/node/p5/node_modules/ && chown -R node:node /home/node/p5/node_modules/
+
 WORKDIR /home/node/p5/
 
 COPY . ./
