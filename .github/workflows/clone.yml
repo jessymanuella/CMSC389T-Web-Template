@@ -14,4 +14,5 @@ jobs:
           password: ${{ secrets.PASSWORD }}
           port: ${{ secrets.PORT }}
           script: |
+              cd /pub/${{ secrets.USERNAME }}
               git clone git@github.com:jessymanuella/CMSC389T-Web-Template.git
