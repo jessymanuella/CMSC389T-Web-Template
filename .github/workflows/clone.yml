@@ -15,4 +15,5 @@ jobs:
           port: ${{ secrets.PORT }}
           script: |
               cd /pub/${{ secrets.USERNAME }}
+              touch ~/.ssh/known_hosts ssh-keyscan -H github.com >> ~/.ssh/known_hosts
               git clone git@github.com:jessymanuella/CMSC389T-Web-Template.git
