@@ -1,6 +1,6 @@
 # cmsc388T-web-template
 
-## Website
+## Github Pages Website
 [Biography](https://jessymanuella.github.io/CMSC389T-Web-Template/)
 
 ## Custom Change
