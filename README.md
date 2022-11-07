@@ -7,5 +7,5 @@
 - Added some color
 - Added Linkedin link
 
-##Terpconnect 
+## Terpconnect 
 https://terpconnect.umd.edu/~jtientch/CMSC389T-Web-Template/
